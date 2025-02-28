@@ -5,28 +5,28 @@
     "mongodbUri": "mongodb+srv://peovip:dat20033002@discordms.re9pa.mongodb.net/?retryWrites=true&w=majority",
     "excessCommands": {
         "utility": true,
-        "other": true,
+        "other": false,
         "hentai": true,
-        "troll": true,
-        "levelling" : true,
+        "troll": false,
+        "levelling" : false,
         "lavalink" : true,
-        "economy" : true,
+        "economy" : false,
         "application" : true,
-        "birthday" : true,
-        "gaming" : true,
-        "customcommands" : true,
-        "report" : true
+        "birthday" : false,
+        "gaming" : false,
+        "customcommands" : false,
+        "report" : false
     },
     "categories": {
         "anime": true,
         "basic": true,
         "utility": true,
-        "moderation": true,
-        "core" :true,
-        "lavalink": true,
-        "fun": true,
-        "distube": true,
-        "setups": true
+        "moderation": false,
+        "core" :false,
+        "lavalink": false,
+        "fun": false,
+        "distube": false,
+        "setups": false
     },
      "lavalink": {
         "lavalink": {
