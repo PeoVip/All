@@ -9,7 +9,7 @@ module.exports = {
             { name: 'Sếch Cung Xuân📌', type: ActivityType.Watching },
             { name: 'Nghịch Ti Ép Ti🔥', type: ActivityType.Playing },
             { name: 'Penhfgold_👑', type: ActivityType.Streaming },
-            { name: 'Oep King - VIP Xì Líp💀', type: ActivityType.Listening },
+            { name: 'Oep King💀', type: ActivityType.Listening },
         ];
 
      
