@@ -6,7 +6,7 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'Sếch Cung Xuân📌', type: ActivityType.Watching },
+            { name: 'Magi📌', type: ActivityType.Watching },
             { name: 'Nghịch Ti Ép Ti🔥', type: ActivityType.Playing },
             { name: 'Penhfgold_👑', type: ActivityType.Streaming },
             { name: 'Oep King💀', type: ActivityType.Listening },
