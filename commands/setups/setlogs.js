@@ -37,7 +37,7 @@ module.exports = {
                         .setDescription('The event to log.')
                         .setRequired(true)
                         .addChoices(
-                            { name: 'Message Deleted', value: 'messageDelete' },
+                            { name: 'Tin nhắn đã xóa', value: 'messageDelete' },
                             { name: 'Message Updated', value: 'messageUpdate' },
                             { name: 'Member Joined', value: 'memberJoin' },
                             { name: 'Member Left', value: 'memberLeave' },
