@@ -125,7 +125,7 @@ module.exports = {
             const embed = new EmbedBuilder()
                 .setColor('#1E90FF')
                 .setAuthor({ name: `${user.username}'s Rank`, iconURL: user.displayAvatarURL() })
-                .setDescription('🏆 **Rank & XP Details**')
+                .setDescription('🏆 **Chi tiết RANK và XP**')
                 .addFields(
                     { name: '📊 Level', value: `**${userData.level}**`, inline: true },
                     { name: '💫 XP', value: `**${userData.xp} / ${requiredXp}**`, inline: true },
