@@ -37,10 +37,10 @@ module.exports = {
                         .setDescription('The event to log.')
                         .setRequired(true)
                         .addChoices(
-                            { name: 'Message Deleted', value: 'messageDelete' },
-                            { name: 'Message Updated', value: 'messageUpdate' },
-                            { name: 'Member Joined', value: 'memberJoin' },
-                            { name: 'Member Left', value: 'memberLeave' },
+                            { name: 'Tin nhắn đã xóa', value: 'messageDelete' },
+                            { name: 'Tin nhắn đã sửa', value: 'messageUpdate' },
+                            { name: 'Thành viên vừa vào server', value: 'memberJoin' },
+                            { name: 'Thành viên vừa rời server', value: 'memberLeave' },
                             { name: 'Role Created', value: 'roleCreate' },
                             { name: 'Role Deleted', value: 'roleDelete' },
                             { name: 'Member Banned', value: 'memberBan' },
