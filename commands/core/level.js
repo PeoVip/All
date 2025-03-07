@@ -129,7 +129,7 @@ module.exports = {
                 .addFields(
                     { name: '📊 Level', value: `**${userData.level}**`, inline: true },
                     { name: '💫 XP', value: `**${userData.xp} / ${requiredXp}**`, inline: true },
-                    { name: '✨ XP Needed', value: `**${requiredXp - userData.xp} XP**`, inline: false }
+                    { name: '✨ XP cần để lên level', value: `**${requiredXp - userData.xp} XP**`, inline: false }
                 )
                 .setTimestamp();
 
