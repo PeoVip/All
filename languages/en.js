@@ -24,7 +24,7 @@ const enLang = {
     inviteImageURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1256597293323256000/invite.png?ex=668158ed&is=6680076d&hm=030c83f567ffdaf0bebb95e50baaec8bb8a8394fa1b7717cc43c3622447f58e3&",
     //ping.js
     pingDescription: "Ping!",
-    pingTitle: "Bot có lag đâu mà check Pibng! 📢",
+    pingTitle: "Bot có lag đâu mà check Ping! 📢",
     botLatency: "Độ trễ của Bot",
     apiLatency: "Độ trễ API",
   // Server info command
