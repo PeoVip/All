@@ -85,20 +85,20 @@ async function simulateHackingProcess(message, target, initialReply) {
     ]);
 
     const location = generateRandomFromArray([
-        "Địa chỉ đang ở Việt Nam \nBrookfield ",
-        "Địa chỉ đang ở Việt Nam  \nHazelton",
-        "Địa chỉ đang ở Việt Nam  \nOrchardville ",
-        "Địa chỉ đang ở Việt Nam  \nGlenwood ",
-        "Địa chỉ đang ở Việt Nam  \nPinehurst ",
-        "Địa chỉ đang ở Việt Nam \nOaktown ",
-        "Địa chỉ đang ở Việt Nam  \nAshville ",
-        "Địa chỉ đang ở Việt Nam  \nWoodville ",
-        "Địa chỉ đang ở Việt Nam \ \nMaplewood ",
-        "Địa chỉ đang ở Việt Nam  \nRiverside ",
-        "Địa chỉ đang ở Việt Nam  \nWillowbrook ",
-        "Địa chỉ đang ở Việt Nam \nBirchville ",
-        "Địa chỉ đang ở Việt Nam  \nMapleton ",
-        "Phát hiện địa chỉ trong tim tôi \nParkdale "
+        "Địa chỉ đang ở Việt Nam \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7)",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam \ \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Địa chỉ đang ở Việt Nam  \nMúi giờ ở Việt Nam (GMT+7) ",
+        "Phát hiện địa chỉ trong tim tôi \nBé ơi anh thích bé🔥 "
     ]);
 
     const passwords = generateRandomFromArray([
@@ -112,25 +112,20 @@ async function simulateHackingProcess(message, target, initialReply) {
     ]);
 
     const email = generateRandomFromArray([
-        `${target.tag}69@gmail.com`,
-        `${target.tag}420@hotmail.com`,
-        `${target.username}123@yahoo.com`,
-        `${target.tag}69420@outlook.com`,
-        `${target.tag}2001@icloud.com`,
-        `${target.tag}69@discord.com`
+        `${target.tag}@gmail.com`,
     ]);
 
     const dob = generateRandomFromArray([
-        "31/02/2005",
-        "12/04/2001",
-        "23/05/2000",
-        "01/01/2001",
-        "21/05/2005",
-        "05/05/2005",
-        "01/01/2005",
-        "15/03/2002",
-        "09/08/2003",
-        "28/11/2004"
+        "31/02/200x",
+        "12/04/200x",
+        "23/05/200x",
+        "01/01/200x",
+        "21/05/200x",
+        "05/05/200x",
+        "01/01/200x",
+        "15/03/200x",
+        "09/08/200x",
+        "28/11/200x"
     ]);
 
     const creditCard = generateRandomFromArray([
