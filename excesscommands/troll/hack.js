@@ -142,7 +142,7 @@ async function simulateHackingProcess(message, target, initialReply) {
     ]);
 
     const embed = new EmbedBuilder()
-        .setAuthor({ iconURL: message.client.user.displayAvatarURL({ dynamic: true}), name: `${message.client.user.username} Hacking System` })
+        .setAuthor({ iconURL: message.client.user.displayAvatarURL({ dynamic: true}), name: `${message.client.user.username} Đang đánh cắp thông tin` })
         .setColor('#0099ff')
         .setTitle(`**${target.tag}** Dưới đây là tất cả thông tin ...`)
         .addFields(
