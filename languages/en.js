@@ -298,7 +298,7 @@ const enLang = {
     errorMessage: 'There was an error while executing this command!',
     // joke.js
     jokeCommandDescription: '1 cú joke ngẫu nhiên, bám chặt coi chừng té ngửa ⛔',
-    jokeEmbedTitle: 'Random Joke',
+    jokeEmbedTitle: '1 cú joke ngẫu nhiên, bám chặt coi chừng té ngửa ⛔',
     jokeError: 'An error occurred while executing the command.',
     // meme.js
     memeCommandDescription: 'Get a random meme from Reddit',
@@ -405,9 +405,9 @@ const enLang = {
     banAlert: 'Alert!',
     // dm.js
     dmCommandDescription: "Send a DM to a user.",
-    dmTargetDescription: "The user to DM.",
+    dmTargetDescription: "Tôi thay mặt người dùng gửi đến bạn.",
     dmReasonDescription: "The reason for the DM.",
-    dmReceivedTitle: "You've received a message!",
+    dmReceivedTitle: "👋 Có thằng lồn này nhờ tao gửi đến mày những dòng tin nhắn!",
     dmReceivedDescription: "Hello! You've received a message from ${sender} in ${interaction.guild.name}. Reason: ${reason}",
     dmSentConfirmation: "Successfully sent a DM to ${targetUser}.",
     dmFailedMessage: "Failed to send a DM to ${targetUser}. They may have DMs disabled.",
