@@ -123,10 +123,10 @@ module.exports = {
                 const totalCount = masterCount + subCount + prefixCount;
                 // Info Page
                 pages.push({
-                    title: 'Bot Information',
+                    title: 'Thông tin Bot',
                     description: [
                         `- **Developer:** penhfgold_`,
-                        `- **Version:** 1.2.1`,
+                        `- **Version:** 1.0`,
                         `- **Commands Loaded:** ${totalCommandsLoaded}`,
                         `- **Master Commands:** ${masterCount}`,
                         `- **Sub Commands:** ${subCount}`,
