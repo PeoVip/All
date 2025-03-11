@@ -19,8 +19,8 @@ const enLang = {
     channelOptionDescription: 'The channel to get information about',
     channelMentionValid: 'Please mention a valid channel.',
     //invite.js
-    inviteTitle: "Invite Link",
-    inviteDescription: "Click [here]({inviteURL}) to invite the bot to your server!",
+    inviteTitle: "Link mời Bot 🤖",
+    inviteDescription: "Click [_Đây_]({inviteURL}) để mời bot vào Server Discord của bạn ⭐",
     inviteImageURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1256597293323256000/invite.png?ex=668158ed&is=6680076d&hm=030c83f567ffdaf0bebb95e50baaec8bb8a8394fa1b7717cc43c3622447f58e3&",
     //ping.js
     pingDescription: "Ping!",
