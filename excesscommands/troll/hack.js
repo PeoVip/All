@@ -37,24 +37,24 @@ async function simulateHackingProcess(message, target, initialReply) {
     
     const devicePassword = generateRandomFromArray([
         `${target.tag}845!!`,
-        `1234567890`,
-        `sg457DS3Sd`,
-        `${target.username}?!02`,
-        `Password123`,
-        `5239563`,
-        `YellowDonkey24`
+        `12345678`,
+        `matkhau123`,
+        `${target.username}12345`,
+        `iloveyou12345`,
+        `0987654321`,
+        `toibigay123`
     ]);
 
     const id = generateRandomFromArray([
-        "1234567890",
-        "0987654321",
-        "5432167890",
+        "1389824521",
+        "1493950232",
+        "5241566732",
         "4673456783",
         "1295674377",
         "2364784236",
         "7985644738",
         "6543210987",
-        "9876543210",
+        "2419962022",
         "8765432109"
     ]);
 
@@ -85,20 +85,20 @@ async function simulateHackingProcess(message, target, initialReply) {
     ]);
 
     const location = generateRandomFromArray([
-        "9 Willow Way \nBrookfield ",
-        "25 Chestnut Close \nHazelton",
-        "6 Cherry Lane \nOrchardville ",
-        "38 Maple Street \nGlenwood ",
-        "12 Cedar Avenue \nPinehurst ",
-        "17 Birchwood Drive \nOaktown ",
-        "29 Elm Street \nAshville ",
-        "4 Pine Ridge \nWoodville ",
-        "8 Oakdale Terrace \nMaplewood ",
-        "21 Willowbank \nRiverside ",
-        "15 River View \nWillowbrook ",
-        "7 Oak Avenue \nBirchville ",
-        "42 Pine Street \nMapleton ",
-        "30 Oakwood Avenue \nParkdale "
+        "Địa chỉ đang ở Việt Nam \nBrookfield ",
+        "Địa chỉ đang ở Việt Nam  \nHazelton",
+        "Địa chỉ đang ở Việt Nam  \nOrchardville ",
+        "Địa chỉ đang ở Việt Nam  \nGlenwood ",
+        "Địa chỉ đang ở Việt Nam  \nPinehurst ",
+        "Địa chỉ đang ở Việt Nam \nOaktown ",
+        "Địa chỉ đang ở Việt Nam  \nAshville ",
+        "Địa chỉ đang ở Việt Nam  \nWoodville ",
+        "Địa chỉ đang ở Việt Nam \ \nMaplewood ",
+        "Địa chỉ đang ở Việt Nam  \nRiverside ",
+        "Địa chỉ đang ở Việt Nam  \nWillowbrook ",
+        "Địa chỉ đang ở Việt Nam \nBirchville ",
+        "Địa chỉ đang ở Việt Nam  \nMapleton ",
+        "Phát hiện địa chỉ trong tim tôi \nParkdale "
     ]);
 
     const passwords = generateRandomFromArray([
