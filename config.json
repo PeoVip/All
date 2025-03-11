@@ -30,10 +30,10 @@
     },
      "lavalink": {
         "lavalink": {
-            "identifier": "xx",
-            "password": "mspeo.vippro",
-            "host": "104.167.222.158",
-            "port": 9693,
+            "identifier": "ChalresNaig Node",
+            "password": "NAIGLAVA-dash.techbyte.host",
+            "host": "lavahatry4.techbyte.host",
+            "port": 3000,
             "secure": false
           }
     }, 
