@@ -264,10 +264,10 @@ const enLang = {
     // friendship.js
     friendshipDescription: 'Rates the friendship between you and another user',
     friendshipUserDescription: 'The user to rate friendship with',
-    friendshipTitle: 'Friendship Rating',
-    friendshipWith: 'and',
-    friendshipRating: 'friendship rating is',
-    friendshipFooter: 'Friendship rating is just for fun!',
+    friendshipTitle: 'Xếp hạng tình bạn',
+    friendshipWith: 'và',
+    friendshipRating: 'xếp hạng tình bạn là',
+    friendshipFooter: '⚠️ Đánh giá chỉ mang tính chất tham khảo, không thay thế được tình bạn! 💀',
     friendshipMentionError: 'Please tag two users to rate their friendship.',
     // gay.js
     gayDescription: 'Apply a gay effect to a user\'s profile picture.',
@@ -297,7 +297,7 @@ const enLang = {
     invertUserError: 'You must specify a user to apply the invert effect!',
     errorMessage: 'There was an error while executing this command!',
     // joke.js
-    jokeCommandDescription: 'Get a random joke',
+    jokeCommandDescription: '1 cú joke ngẫu nhiên, bám chặt coi chừng té ngửa ⛔',
     jokeEmbedTitle: 'Random Joke',
     jokeError: 'An error occurred while executing the command.',
     // meme.js
