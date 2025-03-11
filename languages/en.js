@@ -66,7 +66,7 @@ const enLang = {
     replitLink: "Penhfgold_",
     youtubeLink: "https://www.tiktok.com/@dodocpeo",
     supportIconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6638ae28&is=66375ca8&hm=13e4a1b91a95b2934a39de1876e66c11711c7b30ac1a91c2a158f2f2ed1c2fc6&',
-    supportImageURL: 'https://media.discordapp.net/attachments/1330465076536414229/1348902593308655646/banner.jpg?ex=67d126ef&is=67cfd56f&hm=ec1b9ded949a62c1ad5c5ed5d351112178249146a534ad8abe0f6b796efc66e8&=&format=webp',
+    supportImageURL: 'https://media.discordapp.net/attachments/1330465076536414229/1348906508527865946/Picsart_25-03-11_13-32-43-331.jpg?ex=67d12a95&is=67cfd915&hm=05d5091f66b012d1abe1464f37d159dc5369a2768440d8e21c866e13ac7c9b57&=&format=webp&width=1872&height=669',
     supportDescriptionTitle: "Cần hỗ trợ vui lòng DM or Ping penhfgold_",
     followUsOn: "Follow tôi tại",
     discord: "Discord",
