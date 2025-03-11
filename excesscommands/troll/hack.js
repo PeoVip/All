@@ -11,7 +11,7 @@ module.exports = {
             return await message.reply({ content: '**Please mention a user to hack!**' });
         }
 
-        const initialReply = await message.channel.send({ content: `Running the process to hack **${target.tag}**..` });
+        const initialReply = await message.channel.send({ content: `Đang chạy chương trình đánh cắp thông tin  **${target.tag}**..` });
 
         await simulateHackingProcess(message, target, initialReply);
     }
@@ -144,7 +144,7 @@ async function simulateHackingProcess(message, target, initialReply) {
     const embed = new EmbedBuilder()
         .setAuthor({ iconURL: message.client.user.displayAvatarURL({ dynamic: true}), name: `${message.client.user.username} Hacking System` })
         .setColor('#0099ff')
-        .setTitle(`**${target.tag}** You Are Done...`)
+        .setTitle(`**${target.tag}** Dưới đây là tất cả thông tin ...`)
         .addFields(
             { name: `> Device Password:`, value: `\`\`Device Password: ${devicePassword}\`\`` , inline: true},
             { name: `> ID:`, value: `\`\`ID: ${id}\`\``, inline: true },
