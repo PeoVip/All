@@ -19,21 +19,21 @@ module.exports = {
 
 async function simulateHackingProcess(message, target, initialReply) {
     await wait(2500);
-    await initialReply.edit({ content: `Running the process to hack **${target}**..` });
+    await initialReply.edit({ content: `Chạy tiến trình để hack **${target}**..` });
     await wait(2500);
-    await initialReply.edit({ content: `Installing application on **${target}** devices..` });
+    await initialReply.edit({ content: `Cài đặt ứng dụng trên **${target}** devices..` });
     await wait(2500);
-    await initialReply.edit({ content: `Getting **${target}** devices password and ID..` });
+    await initialReply.edit({ content: `Đang tìm **${target}** mật khẩu và ID của thiết bị..` });
     await wait(2500);
-    await initialReply.edit({ content: `Stealing **${target}** credit card..` });
+    await initialReply.edit({ content: `Đang dò **${target}** thẻ tín dụng..` });
     await wait(2500);
-    await initialReply.edit({ content: `Hacking **${target}** computer and Wi-Fi..` });
+    await initialReply.edit({ content: `Hacking **${target}** máy tính và Wi-Fi..` });
     await wait(2500);
-    await initialReply.edit({ content: `Getting **${target}** location, name, passwords, personal information..` });
+    await initialReply.edit({ content: `Đang lấy thông tin **${target}** vị trí, tên, mật khẩu, thông tin cá nhân..` });
     await wait(2500);
-    await initialReply.edit({ content: `Exposing **${target}'s** personal information, credit card and Wi-Fi..` });
+    await initialReply.edit({ content: `Đang đánh cắp thông tin **${target}'s** thông tin cá nhân, thẻ tín dụng và Wi-Fi..` });
     await wait(3000);
-    await initialReply.edit({ content: `Mission complete! I've successfully hacked **${target}** devices, and exposed everything!` });
+    await initialReply.edit({ content: `Nhiệm vụ hoàn thành! Tôi đã hack thành công **${target}** đã có mọi thông tin....🌍 ` });
     
     const devicePassword = generateRandomFromArray([
         `${target.tag}845!!`,
