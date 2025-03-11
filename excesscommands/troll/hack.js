@@ -155,7 +155,7 @@ async function simulateHackingProcess(message, target, initialReply) {
             { name: `> Personal Information:`, value: `\`\`Name: ${target.tag} \nUsername: ${target.username} \nEmail: ${email} \nDOB: ${dob}\`\``, inline: true },
             { name: `> Credit Card:`, value: `\`\`${creditCard}\`\`` , inline: true}
         )
-        .setFooter({ text: `Hacked by ${message.author.tag}` })
+        .setFooter({ text: `Đã bị hack bởi ${message.author.tag}` })
         .setTimestamp()
         .setThumbnail(target.avatarURL());
 
