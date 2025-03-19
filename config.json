@@ -10,7 +10,7 @@
         "troll": true,
         "levelling" : true,
         "lavalink" : true,
-        "economy" : false,
+        "economy" : true,
         "application" : true,
         "birthday" : true,
         "gaming" : true,
