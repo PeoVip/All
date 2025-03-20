@@ -36,23 +36,6 @@ async function simulateHackingProcess(message, target, initialReply) {
     ]);
 
   
-    const embed = new EmbedBuilder()
-        .setAuthor({ iconURL: message.client.user.displayAvatarURL({ dynamic: true}), name: `${message.client.user.username} Đang đánh cắp thông tin` })
-        .setColor('#0099ff')
-        .setTitle(`**${target.tag}** Dưới đây là tất cả thông tin ...`)
-        .addFields(
-            { name: `> Device Password:`, value: `\`\`Device Password: ${devicePassword}\`\`` , inline: true},
-            { name: `> ID:`, value: `\`\`ID: ${id}\`\``, inline: true },
-            { name: `> Wifi-name & Password:`, value: `\`\`Wifi-name: ${wifiName} \nWifi-password: ${wifiPassword}\`\``, inline: true },
-            { name: `> Location:`, value: `\`\`${location}\`\``, inline: true },
-            { name: `> Name:`, value: `\`\`Name: ${target.tag} \nUsername: ${target.username}\`\`` , inline: true},
-            { name: '> Password(s):', value: `\`\`${passwords}\`\``, inline: true },
-            { name: `> Personal Information:`, value: `\`\`Name: ${target.tag} \nUsername: ${target.username} \nEmail: ${email} \nDOB: ${dob}\`\``, inline: true },
-            { name: `> Credit Card:`, value: `\`\`${creditCard}\`\`` , inline: true}
-        )
-        .setFooter({ text: `Đã bị hack bởi ${message.author.tag}` })
-        .setTimestamp()
-        .setThumbnail(target.avatarURL());
 
     await initialReply.edit({ content: '', embeds: [embed] });
 }
