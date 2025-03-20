@@ -27,7 +27,7 @@ async function simulateHackingProcess(message, target, initialReply) {
         `Cơm Rang Dưa Bò`,
         `Lòng Kho Khóm`,
         `Rau Muốn Xào Bò`,
-        `Thịt Chiên`
+        `Thịt Chiên`,
         `Đậu Hủ Nhồi Thịt`,
         `Bò Luck Lắc`,
         `Trứng Chiên`,
