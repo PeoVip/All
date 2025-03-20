@@ -231,9 +231,9 @@ const enLang = {
     // choose.js
     chooseDescription: 'Randomly chooses one item from the provided options',
     chooseOptionsDescription: 'Options separated by commas',
-    chooseTitle: 'Random Choice Generator',
-    chooseOptionsText: '**Options:**',
-    chooseChosenText: '**Chosen Option:**',
+    chooseTitle: 'Mày bị khó chọn, không sao tao chọn hộ mày',
+    chooseOptionsText: '**Các Options của mày:**',
+    chooseChosenText: '**Tao sẽ chọn:**',
     // darkness.js
     darknessDescription: 'Apply a darkness effect to a user\'s profile picture.',
     darknessUserDescription: 'User whose profile picture to darken',
